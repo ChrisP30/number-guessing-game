@@ -41,6 +41,8 @@ class numberGame {
                 this.body.style.backgroundColor = 'green';
                 guessDisplay.textContent = "That's Correct!"
                 heading.textContent = 'You Win! Great Job!'
+                submitGuessBtn.disabled = true;
+                inputField.disabled = true;
                 if (currentScore > highScore) {
                     highScore = currentScore;
                     highScoreDisplay.textContent = `${highScore}`;
