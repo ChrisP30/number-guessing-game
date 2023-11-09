@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-div">
+        <button id="restart-btn">Again!</button>
+        <h2>(Between 1 and 20)</h2>
+    </div>
+    <div class="header">
+        <h1 id="header-heading">Guess My Number!</h1>
+    </div>
+    <div class="question-container">
+        <div class="question-image-container">
+            <h3 class="question-image">?</h3>
+        </div>
+    </div>
+    <div class="game-main-container">
+        <div class="input-container">
+            <input type="number" id="input-field">
+            <button id="submit-guess">Check!</button>
+        </div>
+        <div class="score-container">
+            <h4 id="guess-display">Start Guessing...</h4>
+            <div class="current-score-container">
+                <h4>Score: </h4>
+                <p id="current-score-display">20</p>
+            </div>
+            <div class="highscore-container">
+                <h4>Highscore: </h4>
+                <p id="highscore-display">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
