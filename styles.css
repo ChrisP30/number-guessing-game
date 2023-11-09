@@ -92,6 +92,7 @@ body {
     border-radius: 15px;
     border: none;
     max-width: 300px;
+    font-size: 16px;
 }
 
 .input-container button {
